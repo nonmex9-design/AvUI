@@ -1154,8 +1154,8 @@ local script = G2L["6"];
 	local Minimize = script.Parent:WaitForChild("UI"):WaitForChild("Top"):WaitForChild("Minimize")
 	local MinimizeI = Minimize:WaitForChild("Icon").Image
 	
-	local Discord = script.Parent:WaitForChild("UI"):WaitForChild("Top"):WaitForChild("Discord").Image
-	local Youtube = script.Parent:WaitForChild("UI"):WaitForChild("Top"):WaitForChild("Youtube").Image
+	local Discord = script.Parent:WaitForChild("UI"):WaitForChild("Top"):WaitForChild("Discord")
+	local Youtube = script.Parent:WaitForChild("UI"):WaitForChild("Top"):WaitForChild("Youtube")
 	
 	task.spawn(function()
 		for i = 1, 10 do
